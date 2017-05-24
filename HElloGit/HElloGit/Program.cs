@@ -10,8 +10,10 @@ namespace HElloGit
     {
         static void Main(string[] args)
         {
-            Console WriteLine "Hello Git!"
-            Console Readkey
+            Console.WriteLine("Escriba su nombre");
+            var nombre = Console.ReadLine();
+            Console.WriteLine("Bienvenido " + nombre);
+            Console.ReadKey();
         }
     }
 }
